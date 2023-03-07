@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(0, 208, 146, 1), rgba(0, 208, 146, 1) 50%, white 50%);
+    height: 100%;
+}
+
+#logo{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;  
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#user_money{    
+    margin-bottom: 30px;
+    text-align: center;
+}
+#user_money h2{    
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+}
+#user_money p{    
+    margin-bottom: 15px;
+    color: white;
+}
+#input_money{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    border: 0px;
+    background-color:white;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 2px 3px 5px 1px gray;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+}
+#organization_button{    
+    border: 0px;
+    border-radius: 20px;
+    background-color:rgba(5, 140, 100, 1);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+#organization_button:hover {
+    background-color: white;
+    color: rgba(5, 140, 100, 1);
+}
+
+#money_organization{
+    text-align: center;
+    margin-bottom: 50px;  
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 2px 5px 10px 1px gray;
+}
+
+#money_organization h2{
+    text-align: center;     
+    font-size: 20px;  
+    margin-bottom: 50px;  
+}
+
+#box_of_items{
+    display: flex;     
+}
+
+.items_organization{    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icons{
+    height: 100px;
+}
+
+.org_value{
+    color: rgba(5, 140, 100, 1);
+    font-size: 32px;    
+}
+
+footer{
+    padding-bottom: 50px;
+    text-align: center;
+}
